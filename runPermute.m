@@ -1,5 +1,5 @@
 function [permuted_pattern]=runRandomClassifier(zscorez,subjects,labels)
-
+%also see this one
 %find unique identifiers
 uniqueSubjects=unique(subjects);
 getSubs=size(uniqueSubjects,1);

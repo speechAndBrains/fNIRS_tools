@@ -1,5 +1,5 @@
 function [results]=runClassifier(zscorez,classification,subjects,labels,channels,plotting)
-
+%this is also changed
 %find unique identifiers
 uniqueSubjects=unique(subjects);
 
