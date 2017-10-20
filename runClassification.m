@@ -1,6 +1,6 @@
 clear all;
 close all;
-%CHECK TO SEE IF UPDATES ON GITHUB
+
 %load file
 [getFile,getPath]=uigetfile('*.csv','select your data');
 extractData=importdata([getPath,'/',getFile]);
