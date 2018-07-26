@@ -4,9 +4,8 @@ function [permuted_pattern]=runRandomClassifier(zscorez,subjects,labels)
 uniqueSubjects=unique(subjects);
 getSubs=size(uniqueSubjects,1);
 
-    %totally randomise eveything
-     s=RandStream('mt19937ar','Seed',0);
-     
+    %note random seed was allocated in runClassification to ensure each
+    %time runClassifcation is run a different random stream will be used
     patterns1=zscorez(labels==1,:);
     patterns2=zscorez(labels==-1,:);
      for ss=1:getSubs

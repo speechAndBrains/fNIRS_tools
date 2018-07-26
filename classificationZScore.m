@@ -1,4 +1,7 @@
 function [zscorez] = classificationZScore(patterns,z_method)
+%NOTE OF CAUTION - methods 2 and 3 do not take into account dropped out
+%channels - so will only calculate correctly, if you have data in all
+%channels
 
 %choose z scoring method
 if z_method==0
