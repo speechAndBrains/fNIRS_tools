@@ -265,7 +265,7 @@ end
 results.sortedPosWeightValues=posW;
 results.sortedPosWeightInd=topInd1;
 results.sortedNegWeightValues=negW;
-results.sortedPosWeightInd=topInd2;
+results.sortedNegWeightInd=topInd2;
 
 clear posW negW topInd1 topInd2 sortNegWeights sortPosWeights indices1 indices2 nI pI
 
